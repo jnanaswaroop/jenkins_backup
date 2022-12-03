@@ -1,0 +1,28 @@
+Started by user [8mha:////4CNoBiiWLL0bHFcD2U+MHTHJuhuxtHnUosKWIgXv8KfHAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfpZeYl5icXliUX5+QUAR23jJMcAAAA=[0mJnana Swaroop K R
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/my_third_job
+[my_third_job] $ /bin/sh -xe /tmp/jenkins5111073679151322948.sh
++ ls
++ pwd
+/var/lib/jenkins/workspace/my_third_job
++ cd ../
++ ls -lt
+total 12
+-rw-r--r-- 1 jenkins jenkins    0 Nov 27 03:00 addition.sh
+-rw-r--r-- 1 jenkins jenkins    0 Nov 27 03:00 product.sh
+-rw-r--r-- 1 jenkins jenkins    0 Nov 27 03:00 subtraction.sh
+drwxr-xr-x 2 jenkins jenkins 4096 Nov 27 02:45 my_third_job
+drwxr-xr-x 4 jenkins jenkins 4096 Nov 26 12:30 my_second_gitrepo_job
+drwxr-xr-x 3 jenkins jenkins 4096 Nov 26 12:17 my_first_job
++ touch addition.sh
++ touch subtraction.sh
++ touch product.sh
++ ls -lrt
+total 12
+drwxr-xr-x 3 jenkins jenkins 4096 Nov 26 12:17 my_first_job
+drwxr-xr-x 4 jenkins jenkins 4096 Nov 26 12:30 my_second_gitrepo_job
+drwxr-xr-x 2 jenkins jenkins 4096 Nov 27 02:45 my_third_job
+-rw-r--r-- 1 jenkins jenkins    0 Nov 27 03:04 subtraction.sh
+-rw-r--r-- 1 jenkins jenkins    0 Nov 27 03:04 product.sh
+-rw-r--r-- 1 jenkins jenkins    0 Nov 27 03:04 addition.sh
+Finished: SUCCESS

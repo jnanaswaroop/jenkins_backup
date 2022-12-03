@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.OrganizationFolder_-OrganizationScan plugin="branch-api@2.1051.v9985666b_f6cc">
+  <actions/>
+  <result>
+    <name>FAILURE</name>
+    <ordinal>2</ordinal>
+    <color>RED</color>
+    <completeBuild>true</completeBuild>
+  </result>
+  <durations>
+    <long>35</long>
+  </durations>
+  <timestamp>1670004367760</timestamp>
+  <duration>35</duration>
+</jenkins.branch.OrganizationFolder_-OrganizationScan>

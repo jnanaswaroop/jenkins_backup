@@ -1,0 +1,9 @@
+commit 9ffed7f9c481a1f5f1409da898282f9745b752ff
+tree 1e4909570a774a4eaf39b43d27242c7805e1d4e5
+parent e2398d923c2cd96532b8bcc00b0efd6b2b73ade0
+author jnanaswaroop <118235880+jnanaswaroop@users.noreply.github.com> 2022-12-03 11:02:42 +0530
+committer GitHub <noreply@github.com> 2022-12-03 11:02:42 +0530
+
+    Create Jenkinsfile_Parameter
+
+:000000 100644 0000000000000000000000000000000000000000 f7215421a7dd757606b8013c4d9808b88e8378ab A	Jenkinsfile_Parameter

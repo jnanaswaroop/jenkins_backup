@@ -1,0 +1,11 @@
+Started by user [8mha:////4CNoBiiWLL0bHFcD2U+MHTHJuhuxtHnUosKWIgXv8KfHAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfpZeYl5icXliUX5+QUAR23jJMcAAAA=[0mJnana Swaroop K R
+Running as SYSTEM
+Building remotely on [8mha:////4A4eARlj+HgN+MeIUngwxAqbjfF7BuYmM6h2QmwQT+iqAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/eT83ILSktQifafSzJwUheCcxLJUheDUorLUIgACBLKt0QAAAA==[0mBuild Slave Server (build_slave_server) in workspace /home/slavejenkins/workspace/my last job
+[my last job] $ /bin/sh -xe /tmp/jenkins12685768027732301231.sh
++ ls
++ pwd
+/home/slavejenkins/workspace/my last job
++ echi hi swaroop
+/tmp/jenkins12685768027732301231.sh: 4: echi: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

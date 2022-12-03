@@ -1,0 +1,28 @@
+Started
+[Fri Dec 02 18:06:07 UTC 2022] Starting organization scan...
+[Fri Dec 02 18:06:07 UTC 2022] Updating actions...
+Looking up details of ...
+ERROR: [Fri Dec 02 18:06:07 UTC 2022] Could not refresh actions for navigator org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator@6cdd4f0d
+java.io.FileNotFoundException: https://api.github.com/users/
+	at org.kohsuke.github.GitHubConnectorResponseErrorHandler$1.onError(GitHubConnectorResponseErrorHandler.java:54)
+	at org.kohsuke.github.GitHubClient.detectKnownErrors(GitHubClient.java:424)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:386)
+Caused: org.kohsuke.github.GHFileNotFoundException: https://api.github.com/users/ {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+	at org.kohsuke.github.GitHubClient.interpretApiError(GitHubClient.java:540)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:401)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:355)
+	at org.kohsuke.github.Requester.fetch(Requester.java:76)
+	at org.kohsuke.github.GitHub.getUser(GitHub.java:587)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator.retrieveActions(GitHubSCMNavigator.java:1647)
+	at jenkins.scm.api.SCMNavigator.fetchActions(SCMNavigator.java:332)
+	at jenkins.branch.OrganizationFolder.computeChildren(OrganizationFolder.java:487)
+	at com.cloudbees.hudson.plugins.folder.computed.ComputedFolder.updateChildren(ComputedFolder.java:278)
+	at com.cloudbees.hudson.plugins.folder.computed.FolderComputation.run(FolderComputation.java:166)
+	at jenkins.branch.OrganizationFolder$OrganizationScan.run(OrganizationFolder.java:918)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+[Fri Dec 02 18:06:07 UTC 2022] Consulting GitHub Organization
+ERROR: [Fri Dec 02 18:06:07 UTC 2022] Could not fetch sources from navigator org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator@6cdd4f0d
+[Fri Dec 02 18:06:07 UTC 2022] Finished organization scan. Scan took 35 ms
+FATAL: Must specify user or organization
+Finished: FAILURE

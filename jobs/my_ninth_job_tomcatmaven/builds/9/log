@@ -1,0 +1,1863 @@
+Started by GitHub push by jnanaswaroop
+Running as SYSTEM
+Building remotely on [8mha:////4MVbqRvCMO0U6mO1nl9gSs4AYPvQAeiorDeu+Cvyt7PrAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/eT83ILSktQi/aTSzJyU+NzEstS8kvzc5MQSAOsuZ0bQAAAA[0mbuild_maventomcat in workspace /home/jenkins/workspace/my_ninth_job_tomcatmaven
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential buildtomcat
+ > git rev-parse --resolve-git-dir /home/jenkins/workspace/my_ninth_job_tomcatmaven/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jnanaswaroop/hello-world-war.git # timeout=10
+Fetching upstream changes from https://github.com/jnanaswaroop/hello-world-war.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials build tomcat maven
+ > git fetch --tags --force --progress -- https://github.com/jnanaswaroop/hello-world-war.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 9ffed7f9c481a1f5f1409da898282f9745b752ff (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9ffed7f9c481a1f5f1409da898282f9745b752ff # timeout=10
+Commit message: "Create Jenkinsfile_Parameter"
+ > git rev-list --no-walk e2398d923c2cd96532b8bcc00b0efd6b2b73ade0 # timeout=10
+[my_ninth_job_tomcatmaven] $ /bin/sh -xe /tmp/jenkins10219741371612167685.sh
++ pwd
+/home/jenkins/workspace/my_ninth_job_tomcatmaven
++ sh installmaventomcat.sh
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+Cloning into 'conf-and-webapps-file'...
+rm: cannot remove 'apache-tomcat-10.0.27/README.md': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/logs': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/LICENSE': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/bin': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/CONTRIBUTING.md': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/NOTICE': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/work': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/BUILDING.txt': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/webapps': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/temp': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/RUNNING.txt': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/conf': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/RELEASE-NOTES': Permission denied
+rm: cannot remove 'apache-tomcat-10.0.27/lib': Permission denied
+--2022-12-03 05:32:52--  https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.27/bin/apache-tomcat-10.0.27.tar.gz
+Resolving dlcdn.apache.org (dlcdn.apache.org)... 151.101.2.132, 2a04:4e42::644
+Connecting to dlcdn.apache.org (dlcdn.apache.org)|151.101.2.132|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11984522 (11M) [application/x-gzip]
+Saving to: ‘apache-tomcat-10.0.27.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  0% 4.57M 2s
+    50K .......... .......... .......... .......... ..........  0% 12.3M 2s
+   100K .......... .......... .......... .......... ..........  1% 12.6M 1s
+   150K .......... .......... .......... .......... ..........  1% 19.6M 1s
+   200K .......... .......... .......... .......... ..........  2% 44.3M 1s
+   250K .......... .......... .......... .......... ..........  2% 19.3M 1s
+   300K .......... .......... .......... .......... ..........  2% 29.6M 1s
+   350K .......... .......... .......... .......... ..........  3% 91.3M 1s
+   400K .......... .......... .......... .......... ..........  3%  231M 1s
+   450K .......... .......... .......... .......... ..........  4% 90.5M 1s
+   500K .......... .......... .......... .......... ..........  4% 19.2M 1s
+   550K .......... .......... .......... .......... ..........  5%  183M 1s
+   600K .......... .......... .......... .......... ..........  5%  260M 1s
+   650K .......... .......... .......... .......... ..........  5% 10.4M 1s
+   700K .......... .......... .......... .......... ..........  6% 46.6M 1s
+   750K .......... .......... .......... .......... ..........  6%  196M 0s
+   800K .......... .......... .......... .......... ..........  7%  249M 0s
+   850K .......... .......... .......... .......... ..........  7%  278M 0s
+   900K .......... .......... .......... .......... ..........  8%  267M 0s
+   950K .......... .......... .......... .......... ..........  8%  250M 0s
+  1000K .......... .......... .......... .......... ..........  8% 11.2M 0s
+  1050K .......... .......... .......... .......... ..........  9% 18.7M 0s
+  1100K .......... .......... .......... .......... ..........  9% 89.5M 0s
+  1150K .......... .......... .......... .......... .......... 10%  266M 0s
+  1200K .......... .......... .......... .......... .......... 10%  206M 0s
+  1250K .......... .......... .......... .......... .......... 11%  207M 0s
+  1300K .......... .......... .......... .......... .......... 11%  235M 0s
+  1350K .......... .......... .......... .......... .......... 11%  265M 0s
+  1400K .......... .......... .......... .......... .......... 12%  204M 0s
+  1450K .......... .......... .......... .......... .......... 12%  271M 0s
+  1500K .......... .......... .......... .......... .......... 13%  160M 0s
+  1550K .......... .......... .......... .......... .......... 13%  151M 0s
+  1600K .......... .......... .......... .......... .......... 14%  245M 0s
+  1650K .......... .......... .......... .......... .......... 14%  199M 0s
+  1700K .......... .......... .......... .......... .......... 14%  211M 0s
+  1750K .......... .......... .......... .......... .......... 15%  163M 0s
+  1800K .......... .......... .......... .......... .......... 15%  236M 0s
+  1850K .......... .......... .......... .......... .......... 16%  197M 0s
+  1900K .......... .......... .......... .......... .......... 16%  180M 0s
+  1950K .......... .......... .......... .......... .......... 17%  278M 0s
+  2000K .......... .......... .......... .......... .......... 17%  183M 0s
+  2050K .......... .......... .......... .......... .......... 17%  177M 0s
+  2100K .......... .......... .......... .......... .......... 18% 6.10M 0s
+  2150K .......... .......... .......... .......... .......... 18% 19.1M 0s
+  2200K .......... .......... .......... .......... .......... 19% 27.2M 0s
+  2250K .......... .......... .......... .......... .......... 19%  154M 0s
+  2300K .......... .......... .......... .......... .......... 20%  281M 0s
+  2350K .......... .......... .......... .......... .......... 20%  238M 0s
+  2400K .......... .......... .......... .......... .......... 20%  131M 0s
+  2450K .......... .......... .......... .......... .......... 21%  177M 0s
+  2500K .......... .......... .......... .......... .......... 21%  218M 0s
+  2550K .......... .......... .......... .......... .......... 22%  155M 0s
+  2600K .......... .......... .......... .......... .......... 22%  138M 0s
+  2650K .......... .......... .......... .......... .......... 23%  144M 0s
+  2700K .......... .......... .......... .......... .......... 23%  150M 0s
+  2750K .......... .......... .......... .......... .......... 23%  141M 0s
+  2800K .......... .......... .......... .......... .......... 24%  134M 0s
+  2850K .......... .......... .......... .......... .......... 24% 6.23M 0s
+  2900K .......... .......... .......... .......... .......... 25% 12.1M 0s
+  2950K .......... .......... .......... .......... .......... 25% 39.5M 0s
+  3000K .......... .......... .......... .......... .......... 26% 51.2M 0s
+  3050K .......... .......... .......... .......... .......... 26%  265M 0s
+  3100K .......... .......... .......... .......... .......... 26%  245M 0s
+  3150K .......... .......... .......... .......... .......... 27%  234M 0s
+  3200K .......... .......... .......... .......... .......... 27%  247M 0s
+  3250K .......... .......... .......... .......... .......... 28%  274M 0s
+  3300K .......... .......... .......... .......... .......... 28%  230M 0s
+  3350K .......... .......... .......... .......... .......... 29%  130M 0s
+  3400K .......... .......... .......... .......... .......... 29% 50.2M 0s
+  3450K .......... .......... .......... .......... .......... 29% 7.65M 0s
+  3500K .......... .......... .......... .......... .......... 30% 19.5M 0s
+  3550K .......... .......... .......... .......... .......... 30% 67.4M 0s
+  3600K .......... .......... .......... .......... .......... 31%  168M 0s
+  3650K .......... .......... .......... .......... .......... 31%  227M 0s
+  3700K .......... .......... .......... .......... .......... 32%  191M 0s
+  3750K .......... .......... .......... .......... .......... 32%  258M 0s
+  3800K .......... .......... .......... .......... .......... 32%  217M 0s
+  3850K .......... .......... .......... .......... .......... 33%  249M 0s
+  3900K .......... .......... .......... .......... .......... 33%  241M 0s
+  3950K .......... .......... .......... .......... .......... 34%  240M 0s
+  4000K .......... .......... .......... .......... .......... 34% 9.24M 0s
+  4050K .......... .......... .......... .......... .......... 35% 11.5M 0s
+  4100K .......... .......... .......... .......... .......... 35%  288M 0s
+  4150K .......... .......... .......... .......... .......... 35%  194M 0s
+  4200K .......... .......... .......... .......... .......... 36%  225M 0s
+  4250K .......... .......... .......... .......... .......... 36%  306M 0s
+  4300K .......... .......... .......... .......... .......... 37%  236M 0s
+  4350K .......... .......... .......... .......... .......... 37%  285M 0s
+  4400K .......... .......... .......... .......... .......... 38%  150M 0s
+  4450K .......... .......... .......... .......... .......... 38%  185M 0s
+  4500K .......... .......... .......... .......... .......... 38%  209M 0s
+  4550K .......... .......... .......... .......... .......... 39%  197M 0s
+  4600K .......... .......... .......... .......... .......... 39%  239M 0s
+  4650K .......... .......... .......... .......... .......... 40% 6.84M 0s
+  4700K .......... .......... .......... .......... .......... 40% 14.3M 0s
+  4750K .......... .......... .......... .......... .......... 41% 21.6M 0s
+  4800K .......... .......... .......... .......... .......... 41% 28.4M 0s
+  4850K .......... .......... .......... .......... .......... 41%  301M 0s
+  4900K .......... .......... .......... .......... .......... 42%  292M 0s
+  4950K .......... .......... .......... .......... .......... 42%  263M 0s
+  5000K .......... .......... .......... .......... .......... 43%  226M 0s
+  5050K .......... .......... .......... .......... .......... 43%  210M 0s
+  5100K .......... .......... .......... .......... .......... 44%  296M 0s
+  5150K .......... .......... .......... .......... .......... 44%  208M 0s
+  5200K .......... .......... .......... .......... .......... 44%  185M 0s
+  5250K .......... .......... .......... .......... .......... 45% 8.14M 0s
+  5300K .......... .......... .......... .......... .......... 45% 19.0M 0s
+  5350K .......... .......... .......... .......... .......... 46%  287M 0s
+  5400K .......... .......... .......... .......... .......... 46%  244M 0s
+  5450K .......... .......... .......... .......... .......... 46%  304M 0s
+  5500K .......... .......... .......... .......... .......... 47%  283M 0s
+  5550K .......... .......... .......... .......... .......... 47%  223M 0s
+  5600K .......... .......... .......... .......... .......... 48% 14.7M 0s
+  5650K .......... .......... .......... .......... .......... 48%  252M 0s
+  5700K .......... .......... .......... .......... .......... 49%  257M 0s
+  5750K .......... .......... .......... .......... .......... 49%  277M 0s
+  5800K .......... .......... .......... .......... .......... 49%  260M 0s
+  5850K .......... .......... .......... .......... .......... 50%  310M 0s
+  5900K .......... .......... .......... .......... .......... 50%  310M 0s
+  5950K .......... .......... .......... .......... .......... 51%  161M 0s
+  6000K .......... .......... .......... .......... .......... 51%  136M 0s
+  6050K .......... .......... .......... .......... .......... 52% 33.3M 0s
+  6100K .......... .......... .......... .......... .......... 52% 11.1M 0s
+  6150K .......... .......... .......... .......... .......... 52% 15.2M 0s
+  6200K .......... .......... .......... .......... .......... 53% 25.7M 0s
+  6250K .......... .......... .......... .......... .......... 53%  133M 0s
+  6300K .......... .......... .......... .......... .......... 54%  197M 0s
+  6350K .......... .......... .......... .......... .......... 54%  133M 0s
+  6400K .......... .......... .......... .......... .......... 55%  130M 0s
+  6450K .......... .......... .......... .......... .......... 55%  158M 0s
+  6500K .......... .......... .......... .......... .......... 55%  161M 0s
+  6550K .......... .......... .......... .......... .......... 56%  157M 0s
+  6600K .......... .......... .......... .......... .......... 56% 16.1M 0s
+  6650K .......... .......... .......... .......... .......... 57% 13.9M 0s
+  6700K .......... .......... .......... .......... .......... 57%  281M 0s
+  6750K .......... .......... .......... .......... .......... 58%  278M 0s
+  6800K .......... .......... .......... .......... .......... 58%  174M 0s
+  6850K .......... .......... .......... .......... .......... 58%  179M 0s
+  6900K .......... .......... .......... .......... .......... 59%  177M 0s
+  6950K .......... .......... .......... .......... .......... 59%  204M 0s
+  7000K .......... .......... .......... .......... .......... 60% 52.4M 0s
+  7050K .......... .......... .......... .......... .......... 60% 10.6M 0s
+  7100K .......... .......... .......... .......... .......... 61% 10.9M 0s
+  7150K .......... .......... .......... .......... .......... 61%  278M 0s
+  7200K .......... .......... .......... .......... .......... 61%  265M 0s
+  7250K .......... .......... .......... .......... .......... 62%  291M 0s
+  7300K .......... .......... .......... .......... .......... 62%  295M 0s
+  7350K .......... .......... .......... .......... .......... 63%  338M 0s
+  7400K .......... .......... .......... .......... .......... 63%  138M 0s
+  7450K .......... .......... .......... .......... .......... 64%  145M 0s
+  7500K .......... .......... .......... .......... .......... 64%  162M 0s
+  7550K .......... .......... .......... .......... .......... 64%  231M 0s
+  7600K .......... .......... .......... .......... .......... 65%  276M 0s
+  7650K .......... .......... .......... .......... .......... 65% 9.75M 0s
+  7700K .......... .......... .......... .......... .......... 66% 28.6M 0s
+  7750K .......... .......... .......... .......... .......... 66% 19.3M 0s
+  7800K .......... .......... .......... .......... .......... 67% 21.8M 0s
+  7850K .......... .......... .......... .......... .......... 67%  253M 0s
+  7900K .......... .......... .......... .......... .......... 67%  253M 0s
+  7950K .......... .......... .......... .......... .......... 68% 14.9M 0s
+  8000K .......... .......... .......... .......... .......... 68%  149M 0s
+  8050K .......... .......... .......... .......... .......... 69%  295M 0s
+  8100K .......... .......... .......... .......... .......... 69%  264M 0s
+  8150K .......... .......... .......... .......... .......... 70%  333M 0s
+  8200K .......... .......... .......... .......... .......... 70%  215M 0s
+  8250K .......... .......... .......... .......... .......... 70%  275M 0s
+  8300K .......... .......... .......... .......... .......... 71%  324M 0s
+  8350K .......... .......... .......... .......... .......... 71%  304M 0s
+  8400K .......... .......... .......... .......... .......... 72%  258M 0s
+  8450K .......... .......... .......... .......... .......... 72%  308M 0s
+  8500K .......... .......... .......... .......... .......... 73%  302M 0s
+  8550K .......... .......... .......... .......... .......... 73%  287M 0s
+  8600K .......... .......... .......... .......... .......... 73%  232M 0s
+  8650K .......... .......... .......... .......... .......... 74%  298M 0s
+  8700K .......... .......... .......... .......... .......... 74%  289M 0s
+  8750K .......... .......... .......... .......... .......... 75%  286M 0s
+  8800K .......... .......... .......... .......... .......... 75%  189M 0s
+  8850K .......... .......... .......... .......... .......... 76%  275M 0s
+  8900K .......... .......... .......... .......... .......... 76%  303M 0s
+  8950K .......... .......... .......... .......... .......... 76%  284M 0s
+  9000K .......... .......... .......... .......... .......... 77%  233M 0s
+  9050K .......... .......... .......... .......... .......... 77%  306M 0s
+  9100K .......... .......... .......... .......... .......... 78%  266M 0s
+  9150K .......... .......... .......... .......... .......... 78%  232M 0s
+  9200K .......... .......... .......... .......... .......... 79%  197M 0s
+  9250K .......... .......... .......... .......... .......... 79%  248M 0s
+  9300K .......... .......... .......... .......... .......... 79% 6.92M 0s
+  9350K .......... .......... .......... .......... .......... 80% 17.4M 0s
+  9400K .......... .......... .......... .......... .......... 80% 66.4M 0s
+  9450K .......... .......... .......... .......... .......... 81%  261M 0s
+  9500K .......... .......... .......... .......... .......... 81%  241M 0s
+  9550K .......... .......... .......... .......... .......... 82%  245M 0s
+  9600K .......... .......... .......... .......... .......... 82%  198M 0s
+  9650K .......... .......... .......... .......... .......... 82%  238M 0s
+  9700K .......... .......... .......... .......... .......... 83%  245M 0s
+  9750K .......... .......... .......... .......... .......... 83% 15.0M 0s
+  9800K .......... .......... .......... .......... .......... 84% 16.0M 0s
+  9850K .......... .......... .......... .......... .......... 84% 26.0M 0s
+  9900K .......... .......... .......... .......... .......... 85% 81.8M 0s
+  9950K .......... .......... .......... .......... .......... 85%  226M 0s
+ 10000K .......... .......... .......... .......... .......... 85%  216M 0s
+ 10050K .......... .......... .......... .......... .......... 86%  294M 0s
+ 10100K .......... .......... .......... .......... .......... 86%  296M 0s
+ 10150K .......... .......... .......... .......... .......... 87%  242M 0s
+ 10200K .......... .......... .......... .......... .......... 87%  213M 0s
+ 10250K .......... .......... .......... .......... .......... 88%  297M 0s
+ 10300K .......... .......... .......... .......... .......... 88%  288M 0s
+ 10350K .......... .......... .......... .......... .......... 88%  298M 0s
+ 10400K .......... .......... .......... .......... .......... 89%  256M 0s
+ 10450K .......... .......... .......... .......... .......... 89%  297M 0s
+ 10500K .......... .......... .......... .......... .......... 90%  284M 0s
+ 10550K .......... .......... .......... .......... .......... 90%  264M 0s
+ 10600K .......... .......... .......... .......... .......... 90%  232M 0s
+ 10650K .......... .......... .......... .......... .......... 91%  276M 0s
+ 10700K .......... .......... .......... .......... .......... 91%  276M 0s
+ 10750K .......... .......... .......... .......... .......... 92%  308M 0s
+ 10800K .......... .......... .......... .......... .......... 92%  253M 0s
+ 10850K .......... .......... .......... .......... .......... 93% 6.79M 0s
+ 10900K .......... .......... .......... .......... .......... 93% 26.4M 0s
+ 10950K .......... .......... .......... .......... .......... 93% 29.9M 0s
+ 11000K .......... .......... .......... .......... .......... 94%  187M 0s
+ 11050K .......... .......... .......... .......... .......... 94%  230M 0s
+ 11100K .......... .......... .......... .......... .......... 95%  203M 0s
+ 11150K .......... .......... .......... .......... .......... 95%  184M 0s
+ 11200K .......... .......... .......... .......... .......... 96%  212M 0s
+ 11250K .......... .......... .......... .......... .......... 96% 14.7M 0s
+ 11300K .......... .......... .......... .......... .......... 96% 26.7M 0s
+ 11350K .......... .......... .......... .......... .......... 97% 28.2M 0s
+ 11400K .......... .......... .......... .......... .......... 97%  184M 0s
+ 11450K .......... .......... .......... .......... .......... 98%  249M 0s
+ 11500K .......... .......... .......... .......... .......... 98%  262M 0s
+ 11550K .......... .......... .......... .......... .......... 99%  268M 0s
+ 11600K .......... .......... .......... .......... .......... 99%  240M 0s
+ 11650K .......... .......... .......... .......... .......... 99%  269M 0s
+ 11700K ...                                                   100% 6.77T=0.2s
+
+2022-12-03 05:32:52 (49.0 MB/s) - ‘apache-tomcat-10.0.27.tar.gz’ saved [11984522/11984522]
+
+apache-tomcat-10.0.27/conf/
+apache-tomcat-10.0.27/conf/catalina.policy
+tar: apache-tomcat-10.0.27/conf/catalina.policy: Cannot open: Permission denied
+apache-tomcat-10.0.27/conf/catalina.properties
+tar: apache-tomcat-10.0.27/conf/catalina.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/conf/context.xml
+tar: apache-tomcat-10.0.27/conf/context.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/conf/jaspic-providers.xml
+tar: apache-tomcat-10.0.27/conf/jaspic-providers.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/conf/jaspic-providers.xsd
+tar: apache-tomcat-10.0.27/conf/jaspic-providers.xsd: Cannot open: Permission denied
+apache-tomcat-10.0.27/conf/logging.properties
+tar: apache-tomcat-10.0.27/conf/logging.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/conf/server.xml
+tar: apache-tomcat-10.0.27/conf/server.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/conf/tomcat-users.xml
+tar: apache-tomcat-10.0.27/conf/tomcat-users.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/conf/tomcat-users.xsd
+tar: apache-tomcat-10.0.27/conf/tomcat-users.xsd: Cannot open: Permission denied
+apache-tomcat-10.0.27/conf/web.xml
+tar: apache-tomcat-10.0.27/conf/web.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/
+tar: apache-tomcat-10.0.27/conf: Cannot utime: Operation not permitted
+apache-tomcat-10.0.27/lib/
+tar: apache-tomcat-10.0.27/bin: Cannot utime: Operation not permitted
+apache-tomcat-10.0.27/logs/
+tar: apache-tomcat-10.0.27/lib: Cannot utime: Operation not permitted
+apache-tomcat-10.0.27/temp/
+tar: apache-tomcat-10.0.27/logs: Cannot utime: Operation not permitted
+apache-tomcat-10.0.27/webapps/
+tar: apache-tomcat-10.0.27/temp: Cannot utime: Operation not permitted
+apache-tomcat-10.0.27/webapps/ROOT/
+tar: apache-tomcat-10.0.27/webapps/ROOT: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/WEB-INF/
+tar: apache-tomcat-10.0.27/webapps/ROOT/WEB-INF: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/
+tar: apache-tomcat-10.0.27/webapps/docs: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/WEB-INF/
+tar: apache-tomcat-10.0.27/webapps/docs/WEB-INF: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/annotationapi/
+tar: apache-tomcat-10.0.27/webapps/docs/annotationapi: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/api/
+tar: apache-tomcat-10.0.27/webapps/docs/api: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/
+tar: apache-tomcat-10.0.27/webapps/docs/appdev: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/docs/
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/docs: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/src/
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/src: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/src/mypackage/
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/src/mypackage: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/web: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/WEB-INF/
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/WEB-INF: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/images/
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/images: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/architecture/
+tar: apache-tomcat-10.0.27/webapps/docs/architecture: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess/
+tar: apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/architecture/startup/
+tar: apache-tomcat-10.0.27/webapps/docs/architecture/startup: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/
+tar: apache-tomcat-10.0.27/webapps/docs/config: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/elapi/
+tar: apache-tomcat-10.0.27/webapps/docs/elapi: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/
+tar: apache-tomcat-10.0.27/webapps/docs/images: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/fonts/
+tar: apache-tomcat-10.0.27/webapps/docs/images/fonts: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/jaspicapi/
+tar: apache-tomcat-10.0.27/webapps/docs/jaspicapi: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/jspapi/
+tar: apache-tomcat-10.0.27/webapps/docs/jspapi: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/servletapi/
+tar: apache-tomcat-10.0.27/webapps/docs/servletapi: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/tribes/
+tar: apache-tomcat-10.0.27/webapps/docs/tribes: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/docs/websocketapi/
+tar: apache-tomcat-10.0.27/webapps/docs/websocketapi: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/
+tar: apache-tomcat-10.0.27/webapps/examples: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/META-INF/
+tar: apache-tomcat-10.0.27/webapps/examples/META-INF: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/checkbox/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/checkbox: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/colors/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/colors: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/dates/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/dates: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/error/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/error: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/filters/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/filters: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/http2/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/http2: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/el/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/el: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/num/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/num: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/sessions/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/sessions: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/validators/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/validators: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/chat/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/chat: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/lib/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/lib: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags/
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/async/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/async: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/cal: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/checkbox: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/colors: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/dates/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/dates: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/error/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/error: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/forward: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/images/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/images: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/include/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/include: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/num/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/num: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/security/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/security: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/security/protected: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/sessions: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/simpletag/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/simpletag: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/snp/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/snp: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/xml/
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/xml: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/
+tar: apache-tomcat-10.0.27/webapps/examples/servlets: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/images/
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/images: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/nonblocking/
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/nonblocking: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/examples/websocket/
+tar: apache-tomcat-10.0.27/webapps/examples/websocket: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/
+tar: apache-tomcat-10.0.27/webapps/host-manager: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/META-INF/
+tar: apache-tomcat-10.0.27/webapps/host-manager/META-INF: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/
+tar: apache-tomcat-10.0.27/webapps/host-manager/WEB-INF: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp/
+tar: apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/css/
+tar: apache-tomcat-10.0.27/webapps/host-manager/css: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/images/
+tar: apache-tomcat-10.0.27/webapps/host-manager/images: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/manager/
+tar: apache-tomcat-10.0.27/webapps/manager: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/manager/META-INF/
+tar: apache-tomcat-10.0.27/webapps/manager/META-INF: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/
+tar: apache-tomcat-10.0.27/webapps/manager/WEB-INF: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/
+tar: apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/manager/css/
+tar: apache-tomcat-10.0.27/webapps/manager/css: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/webapps/manager/images/
+tar: apache-tomcat-10.0.27/webapps/manager/images: Cannot mkdir: Permission denied
+apache-tomcat-10.0.27/work/
+tar: apache-tomcat-10.0.27/webapps: Cannot utime: Operation not permitted
+apache-tomcat-10.0.27/BUILDING.txt
+tar: apache-tomcat-10.0.27/work: Cannot utime: Operation not permitted
+tar: apache-tomcat-10.0.27/BUILDING.txt: Cannot open: File exists
+apache-tomcat-10.0.27/CONTRIBUTING.md
+tar: apache-tomcat-10.0.27/CONTRIBUTING.md: Cannot open: File exists
+apache-tomcat-10.0.27/LICENSE
+tar: apache-tomcat-10.0.27/LICENSE: Cannot open: File exists
+apache-tomcat-10.0.27/NOTICE
+tar: apache-tomcat-10.0.27/NOTICE: Cannot open: File exists
+apache-tomcat-10.0.27/README.md
+tar: apache-tomcat-10.0.27/README.md: Cannot open: File exists
+apache-tomcat-10.0.27/RELEASE-NOTES
+tar: apache-tomcat-10.0.27/RELEASE-NOTES: Cannot open: File exists
+apache-tomcat-10.0.27/RUNNING.txt
+tar: apache-tomcat-10.0.27/RUNNING.txt: Cannot open: File exists
+apache-tomcat-10.0.27/bin/bootstrap.jar
+tar: apache-tomcat-10.0.27/bin/bootstrap.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/catalina-tasks.xml
+tar: apache-tomcat-10.0.27/bin/catalina-tasks.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/catalina.bat
+tar: apache-tomcat-10.0.27/bin/catalina.bat: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/ciphers.bat
+tar: apache-tomcat-10.0.27/bin/ciphers.bat: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/commons-daemon-native.tar.gz
+tar: apache-tomcat-10.0.27/bin/commons-daemon-native.tar.gz: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/commons-daemon.jar
+tar: apache-tomcat-10.0.27/bin/commons-daemon.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/configtest.bat
+tar: apache-tomcat-10.0.27/bin/configtest.bat: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/digest.bat
+tar: apache-tomcat-10.0.27/bin/digest.bat: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/makebase.bat
+tar: apache-tomcat-10.0.27/bin/makebase.bat: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/migrate.bat
+tar: apache-tomcat-10.0.27/bin/migrate.bat: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/setclasspath.bat
+tar: apache-tomcat-10.0.27/bin/setclasspath.bat: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/shutdown.bat
+tar: apache-tomcat-10.0.27/bin/shutdown.bat: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/startup.bat
+tar: apache-tomcat-10.0.27/bin/startup.bat: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/tomcat-juli.jar
+tar: apache-tomcat-10.0.27/bin/tomcat-juli.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/tomcat-native.tar.gz
+tar: apache-tomcat-10.0.27/bin/tomcat-native.tar.gz: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/tool-wrapper.bat
+tar: apache-tomcat-10.0.27/bin/tool-wrapper.bat: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/version.bat
+tar: apache-tomcat-10.0.27/bin/version.bat: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/annotations-api.jar
+tar: apache-tomcat-10.0.27/lib/annotations-api.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/catalina-ant.jar
+tar: apache-tomcat-10.0.27/lib/catalina-ant.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/catalina-ha.jar
+tar: apache-tomcat-10.0.27/lib/catalina-ha.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/catalina-ssi.jar
+tar: apache-tomcat-10.0.27/lib/catalina-ssi.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/catalina-storeconfig.jar
+tar: apache-tomcat-10.0.27/lib/catalina-storeconfig.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/catalina-tribes.jar
+tar: apache-tomcat-10.0.27/lib/catalina-tribes.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/catalina.jar
+tar: apache-tomcat-10.0.27/lib/catalina.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/ecj-4.20.jar
+tar: apache-tomcat-10.0.27/lib/ecj-4.20.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/el-api.jar
+tar: apache-tomcat-10.0.27/lib/el-api.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/jakartaee-migration-1.0.4-shaded.jar
+tar: apache-tomcat-10.0.27/lib/jakartaee-migration-1.0.4-shaded.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/jasper-el.jar
+tar: apache-tomcat-10.0.27/lib/jasper-el.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/jasper.jar
+tar: apache-tomcat-10.0.27/lib/jasper.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/jaspic-api.jar
+tar: apache-tomcat-10.0.27/lib/jaspic-api.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/jsp-api.jar
+tar: apache-tomcat-10.0.27/lib/jsp-api.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/servlet-api.jar
+tar: apache-tomcat-10.0.27/lib/servlet-api.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-api.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-api.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-coyote.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-coyote.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-dbcp.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-dbcp.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-i18n-cs.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-i18n-cs.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-i18n-de.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-i18n-de.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-i18n-es.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-i18n-es.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-i18n-fr.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-i18n-fr.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-i18n-ja.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-i18n-ja.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-i18n-ko.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-i18n-ko.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-i18n-pt-BR.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-i18n-pt-BR.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-i18n-ru.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-i18n-ru.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-i18n-zh-CN.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-i18n-zh-CN.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-jdbc.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-jdbc.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-jni.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-jni.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-util-scan.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-util-scan.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-util.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-util.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/tomcat-websocket.jar
+tar: apache-tomcat-10.0.27/lib/tomcat-websocket.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/lib/websocket-api.jar
+tar: apache-tomcat-10.0.27/lib/websocket-api.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/temp/safeToDelete.tmp
+tar: apache-tomcat-10.0.27/temp/safeToDelete.tmp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/RELEASE-NOTES.txt
+tar: apache-tomcat-10.0.27/webapps/ROOT/RELEASE-NOTES.txt: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/WEB-INF/web.xml
+tar: apache-tomcat-10.0.27/webapps/ROOT/WEB-INF/web.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/asf-logo-wide.svg
+tar: apache-tomcat-10.0.27/webapps/ROOT/asf-logo-wide.svg: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/bg-button.png
+tar: apache-tomcat-10.0.27/webapps/ROOT/bg-button.png: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/bg-middle.png
+tar: apache-tomcat-10.0.27/webapps/ROOT/bg-middle.png: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/bg-nav.png
+tar: apache-tomcat-10.0.27/webapps/ROOT/bg-nav.png: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/bg-upper.png
+tar: apache-tomcat-10.0.27/webapps/ROOT/bg-upper.png: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/favicon.ico
+tar: apache-tomcat-10.0.27/webapps/ROOT/favicon.ico: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/index.jsp
+tar: apache-tomcat-10.0.27/webapps/ROOT/index.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/tomcat.css
+tar: apache-tomcat-10.0.27/webapps/ROOT/tomcat.css: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/ROOT/tomcat.svg
+tar: apache-tomcat-10.0.27/webapps/ROOT/tomcat.svg: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/BUILDING.txt
+tar: apache-tomcat-10.0.27/webapps/docs/BUILDING.txt: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/RELEASE-NOTES.txt
+tar: apache-tomcat-10.0.27/webapps/docs/RELEASE-NOTES.txt: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/RUNNING.txt
+tar: apache-tomcat-10.0.27/webapps/docs/RUNNING.txt: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/WEB-INF/web.xml
+tar: apache-tomcat-10.0.27/webapps/docs/WEB-INF/web.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/aio.html
+tar: apache-tomcat-10.0.27/webapps/docs/aio.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/annotationapi/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/annotationapi/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/api/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/api/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/build.xml.txt
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/build.xml.txt: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/deployment.html
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/deployment.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/installation.html
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/installation.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/introduction.html
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/introduction.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/processes.html
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/processes.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/build.xml
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/build.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/docs/README.txt
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/docs/README.txt: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/sample.war
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/sample.war: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/src/mypackage/Hello.java
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/src/mypackage/Hello.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/WEB-INF/web.xml
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/WEB-INF/web.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/hello.jsp
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/hello.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/images/tomcat.gif
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/images/tomcat.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/sample/web/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/source.html
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/source.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/appdev/web.xml.txt
+tar: apache-tomcat-10.0.27/webapps/docs/appdev/web.xml.txt: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/apr.html
+tar: apache-tomcat-10.0.27/webapps/docs/apr.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/architecture/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/architecture/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/architecture/overview.html
+tar: apache-tomcat-10.0.27/webapps/docs/architecture/overview.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess.html
+tar: apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess/authentication-process.png
+tar: apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess/authentication-process.png: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess/request-process.png
+tar: apache-tomcat-10.0.27/webapps/docs/architecture/requestProcess/request-process.png: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/architecture/startup.html
+tar: apache-tomcat-10.0.27/webapps/docs/architecture/startup.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/architecture/startup/serverStartup.pdf
+tar: apache-tomcat-10.0.27/webapps/docs/architecture/startup/serverStartup.pdf: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/architecture/startup/serverStartup.txt
+tar: apache-tomcat-10.0.27/webapps/docs/architecture/startup/serverStartup.txt: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/balancer-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/balancer-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/building.html
+tar: apache-tomcat-10.0.27/webapps/docs/building.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/cdi.html
+tar: apache-tomcat-10.0.27/webapps/docs/cdi.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/cgi-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/cgi-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/changelog.html
+tar: apache-tomcat-10.0.27/webapps/docs/changelog.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/class-loader-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/class-loader-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/cluster-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/cluster-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/comments.html
+tar: apache-tomcat-10.0.27/webapps/docs/comments.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/ajp.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/ajp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/automatic-deployment.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/automatic-deployment.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/cluster-channel.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/cluster-channel.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/cluster-deployer.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/cluster-deployer.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/cluster-interceptor.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/cluster-interceptor.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/cluster-listener.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/cluster-listener.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/cluster-manager.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/cluster-manager.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/cluster-membership.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/cluster-membership.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/cluster-receiver.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/cluster-receiver.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/cluster-sender.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/cluster-sender.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/cluster-valve.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/cluster-valve.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/cluster.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/cluster.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/context.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/context.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/cookie-processor.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/cookie-processor.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/credentialhandler.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/credentialhandler.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/engine.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/engine.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/executor.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/executor.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/filter.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/filter.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/globalresources.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/globalresources.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/host.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/host.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/http.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/http.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/http2.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/http2.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/jar-scan-filter.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/jar-scan-filter.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/jar-scanner.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/jar-scanner.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/jaspic.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/jaspic.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/listeners.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/listeners.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/loader.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/loader.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/manager.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/manager.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/realm.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/realm.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/resources.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/resources.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/server.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/server.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/service.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/service.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/sessionidgenerator.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/sessionidgenerator.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/systemprops.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/systemprops.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/config/valve.html
+tar: apache-tomcat-10.0.27/webapps/docs/config/valve.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/connectors.html
+tar: apache-tomcat-10.0.27/webapps/docs/connectors.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/default-servlet.html
+tar: apache-tomcat-10.0.27/webapps/docs/default-servlet.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/deployer-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/deployer-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/developers.html
+tar: apache-tomcat-10.0.27/webapps/docs/developers.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/elapi/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/elapi/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/graal.html
+tar: apache-tomcat-10.0.27/webapps/docs/graal.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/host-manager-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/host-manager-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/html-host-manager-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/html-host-manager-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/html-manager-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/html-manager-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/add.gif
+tar: apache-tomcat-10.0.27/webapps/docs/images/add.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/asf-logo.svg
+tar: apache-tomcat-10.0.27/webapps/docs/images/asf-logo.svg: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/code.gif
+tar: apache-tomcat-10.0.27/webapps/docs/images/code.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/cors-flowchart.png
+tar: apache-tomcat-10.0.27/webapps/docs/images/cors-flowchart.png: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/design.gif
+tar: apache-tomcat-10.0.27/webapps/docs/images/design.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/docs-stylesheet.css
+tar: apache-tomcat-10.0.27/webapps/docs/images/docs-stylesheet.css: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/docs.gif
+tar: apache-tomcat-10.0.27/webapps/docs/images/docs.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/fix.gif
+tar: apache-tomcat-10.0.27/webapps/docs/images/fix.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans400.woff
+tar: apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans400.woff: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans400italic.woff
+tar: apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans400italic.woff: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans600.woff
+tar: apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans600.woff: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans600italic.woff
+tar: apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans600italic.woff: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans700.woff
+tar: apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans700.woff: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans700italic.woff
+tar: apache-tomcat-10.0.27/webapps/docs/images/fonts/OpenSans700italic.woff: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/fonts/fonts.css
+tar: apache-tomcat-10.0.27/webapps/docs/images/fonts/fonts.css: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/tomcat.gif
+tar: apache-tomcat-10.0.27/webapps/docs/images/tomcat.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/tomcat.png
+tar: apache-tomcat-10.0.27/webapps/docs/images/tomcat.png: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/update.gif
+tar: apache-tomcat-10.0.27/webapps/docs/images/update.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/images/void.gif
+tar: apache-tomcat-10.0.27/webapps/docs/images/void.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/introduction.html
+tar: apache-tomcat-10.0.27/webapps/docs/introduction.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/jasper-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/jasper-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/jaspicapi/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/jaspicapi/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/jdbc-pool.html
+tar: apache-tomcat-10.0.27/webapps/docs/jdbc-pool.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/jndi-datasource-examples-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/jndi-datasource-examples-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/jndi-resources-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/jndi-resources-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/jspapi/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/jspapi/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/logging.html
+tar: apache-tomcat-10.0.27/webapps/docs/logging.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/manager-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/manager-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/maven-jars.html
+tar: apache-tomcat-10.0.27/webapps/docs/maven-jars.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/mbeans-descriptors-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/mbeans-descriptors-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/mbeans-descriptors.dtd
+tar: apache-tomcat-10.0.27/webapps/docs/mbeans-descriptors.dtd: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/monitoring.html
+tar: apache-tomcat-10.0.27/webapps/docs/monitoring.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/proxy-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/proxy-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/realm-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/realm-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/rewrite.html
+tar: apache-tomcat-10.0.27/webapps/docs/rewrite.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/security-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/security-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/security-manager-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/security-manager-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/servletapi/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/servletapi/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/setup.html
+tar: apache-tomcat-10.0.27/webapps/docs/setup.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/ssi-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/ssi-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/ssl-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/ssl-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/tribes/developers.html
+tar: apache-tomcat-10.0.27/webapps/docs/tribes/developers.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/tribes/faq.html
+tar: apache-tomcat-10.0.27/webapps/docs/tribes/faq.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/tribes/interceptors.html
+tar: apache-tomcat-10.0.27/webapps/docs/tribes/interceptors.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/tribes/introduction.html
+tar: apache-tomcat-10.0.27/webapps/docs/tribes/introduction.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/tribes/membership.html
+tar: apache-tomcat-10.0.27/webapps/docs/tribes/membership.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/tribes/setup.html
+tar: apache-tomcat-10.0.27/webapps/docs/tribes/setup.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/tribes/status.html
+tar: apache-tomcat-10.0.27/webapps/docs/tribes/status.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/tribes/transport.html
+tar: apache-tomcat-10.0.27/webapps/docs/tribes/transport.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/virtual-hosting-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/virtual-hosting-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/web-socket-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/web-socket-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/websocketapi/index.html
+tar: apache-tomcat-10.0.27/webapps/docs/websocketapi/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/windows-auth-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/windows-auth-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/docs/windows-service-howto.html
+tar: apache-tomcat-10.0.27/webapps/docs/windows-service-howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/META-INF/context.xml
+tar: apache-tomcat-10.0.27/webapps/examples/META-INF/context.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/CookieExample.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/CookieExample.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/CookieExample.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/CookieExample.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/HelloWorldExample.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/HelloWorldExample.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/HelloWorldExample.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/HelloWorldExample.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings.properties
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_cs.properties
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_cs.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_de.properties
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_de.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_es.properties
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_es.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_fr.properties
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_fr.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_ja.properties
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_ja.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_ko.properties
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_ko.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_pt.properties
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_pt.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_pt_BR.properties
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_pt_BR.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_ru.properties
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_ru.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_zh_CN.properties
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/LocalStrings_zh_CN.properties: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestHeaderExample.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestHeaderExample.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestHeaderExample.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestHeaderExample.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestInfoExample.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestInfoExample.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestInfoExample.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestInfoExample.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestParamExample.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestParamExample.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestParamExample.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/RequestParamExample.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/ServletToJsp.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/ServletToJsp.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/ServletToJsp.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/ServletToJsp.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/SessionExample.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/SessionExample.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/SessionExample.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/SessionExample.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async0$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async0$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async0.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async0.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async0.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async0.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async1$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async1$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async1.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async1.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async2$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async2$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async2.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async2.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async2.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async2.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async3.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async3.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async3.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Async3.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockContextListener.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockContextListener.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockContextListener.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockContextListener.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker$Stock.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker$Stock.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker$TickListener.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker$TickListener.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/async/Stockticker.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entries.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entries.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entries.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entries.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entry.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entry.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entry.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/Entry.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/JspCalendar.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/JspCalendar.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/JspCalendar.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/JspCalendar.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/TableBean.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/TableBean.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/TableBean.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/cal/TableBean.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/checkbox/CheckTest.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/checkbox/CheckTest.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/checkbox/CheckTest.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/checkbox/CheckTest.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/colors/ColorGameBean.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/colors/ColorGameBean.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/dates/JspCalendar.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/dates/JspCalendar.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/dates/JspCalendar.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/dates/JspCalendar.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/error/Smart.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/error/Smart.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/error/Smart.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/error/Smart.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTag.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTag.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTag.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTag.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/LogTag.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/LogTag.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/LogTag.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/LogTag.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ValuesTag.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ValuesTag.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ValuesTag.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/examples/ValuesTag.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/filters/ExampleFilter.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/filters/ExampleFilter.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/filters/ExampleFilter.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/filters/ExampleFilter.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/ContextListener.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/ContextListener.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/ContextListener.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/ContextListener.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/SessionListener.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/SessionListener.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/SessionListener.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/listeners/SessionListener.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$CounterListener.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$CounterListener.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$NumberWriterListener.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$NumberWriterListener.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/num/NumberGuessBean.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/num/NumberGuessBean.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/sessions/DummyCart.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/sessions/DummyCart.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/sessions/DummyCart.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/sessions/DummyCart.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers$TrailerFieldSupplier.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers$TrailerFieldSupplier.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/CookieFilter.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/CookieFilter.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/CookieFilter.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/CookieFilter.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/HTMLFilter.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/HTMLFilter.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/HTMLFilter.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/util/HTMLFilter.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/validators/DebugValidator.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/validators/DebugValidator.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/validators/DebugValidator.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/validators/DebugValidator.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Client$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Client$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage$ParseException.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage$ParseException.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$2.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$2.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$2.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$2.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$MessageType.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$MessageType.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$Player.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$Player.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$CompletedFuture.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$CompletedFuture.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerBinary.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerBinary.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerText.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerText.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/servers.json
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/echo/servers.json: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Direction.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Direction.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Direction.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Direction.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Location$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Location$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Location.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Location.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Location.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Location.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Snake.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Snake.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer$1.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer$1.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.class
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.class: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp/debug-taglib.tld
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp/debug-taglib.tld: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp/example-taglib.tld
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp/example-taglib.tld: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp/jsp2-example-taglib.tld
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/jsp/jsp2-example-taglib.tld: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5-migrated-0.0.1.jar
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5-migrated-0.0.1.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5-migrated-0.0.1.jar
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5-migrated-0.0.1.jar: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags/displayProducts.tag
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags/displayProducts.tag: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags/helloWorld.tag
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags/helloWorld.tag: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags/panel.tag
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/tags/panel.tag: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/WEB-INF/web.xml
+tar: apache-tomcat-10.0.27/webapps/examples/WEB-INF/web.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/index.html
+tar: apache-tomcat-10.0.27/webapps/examples/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/async/async1.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/async/async1.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/async/async1.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/async/async1.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/async/async3.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/async/async3.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/async/async3.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/async/async3.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/async/index.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/async/index.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/async/index.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/async/index.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/Entries.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/cal/Entries.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/Entry.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/cal/Entry.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/JspCalendar.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/cal/JspCalendar.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/TableBean.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/cal/TableBean.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal1.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal1.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal1.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal1.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal2.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal2.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal2.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/cal/cal2.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/calendar.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/cal/calendar.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/cal/login.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/cal/login.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/CheckTest.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/CheckTest.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/check.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/check.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/checkresult.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/checkresult.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/checkresult.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/checkresult.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/cresult.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/checkbox/cresult.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/ColorGameBean.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/colors/ColorGameBean.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/clr.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/colors/clr.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/colors.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/colors/colors.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/colrs.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/colors/colrs.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/colors/colrs.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/colors/colrs.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/dates/date.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/dates/date.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/dates/date.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/dates/date.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/dates/date.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/dates/date.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/error/er.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/error/er.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/error/err.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/error/err.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/error/err.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/error/err.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/error/error.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/error/error.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/error/errorpge.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/error/errorpge.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/error/errorpge.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/error/errorpge.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/forward.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/forward/forward.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/forward.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/forward/forward.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/fwd.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/forward/fwd.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/one.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/forward/one.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/one.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/forward/one.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/forward/two.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/forward/two.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/images/code.gif
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/images/code.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/images/execute.gif
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/images/execute.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/images/return.gif
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/images/return.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/include/foo.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/include/foo.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/include/foo.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/include/foo.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/include/foo.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/include/foo.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/include/inc.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/include/inc.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/include/include.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/include/include.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/include/include.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/include/include.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/index.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/Functions.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/Functions.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/ValuesBean.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/ValuesBean.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/ValuesTag.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/ValuesTag.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-arithmetic.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-arithmetic.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-comparisons.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-comparisons.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/composite.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/composite.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/composite.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/composite.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/composite.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/composite.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/functions.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/functions.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/functions.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/functions.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/functions.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/functions.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/implicit-objects.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/implicit-objects.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/implicit-objects.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/implicit-objects.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/implicit-objects.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/el/implicit-objects.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/FooBean.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/FooBean.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/HelloWorldSimpleTag.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/HelloWorldSimpleTag.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/ShuffleSimpleTag.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/ShuffleSimpleTag.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/TileSimpleTag.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/TileSimpleTag.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/jspattribute.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/jspattribute.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/shuffle.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/shuffle.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/basic.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/basic.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/basic.jspx
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/basic.jspx: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/basic.jspx.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/basic.jspx.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/svgexample.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/svgexample.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.jpg
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.jpg: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.jspx
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.jspx: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.jspx.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/jspx/textRotate.jspx.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/EchoAttributesTag.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/EchoAttributesTag.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/coda.jspf
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/coda.jspf: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/coda.jspf.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/coda.jspf.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/config.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/config.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/config.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/config.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/config.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/config.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/dynamicattrs.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/dynamicattrs.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/prelude.jspf
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/prelude.jspf: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/prelude.jspf.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/misc/prelude.jspf.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/BookBean.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/BookBean.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/FindBookSimpleTag.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/FindBookSimpleTag.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/Functions.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/Functions.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/HelloWorldSimpleTag.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/HelloWorldSimpleTag.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/RepeatSimpleTag.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/RepeatSimpleTag.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/book.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/book.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/book.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/book.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/book.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/book.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/hello.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/hello.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/hello.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/hello.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/hello.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/hello.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/repeat.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/repeat.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/repeat.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/repeat.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/repeat.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/simpletag/repeat.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/displayProducts.tag.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/displayProducts.tag.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/hello.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/hello.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/hello.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/hello.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/hello.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/hello.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/helloWorld.tag.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/helloWorld.tag.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.tag.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/panel.tag.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/products.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/products.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/products.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/products.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/products.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsp2/tagfiles/products.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/ServletToJsp.java.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/ServletToJsp.java.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/hello.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/hello.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/hello.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/hello.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/jts.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/jsptoserv/jts.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/num/numguess.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/num/numguess.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/num/numguess.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/num/numguess.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/num/numguess.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/num/numguess.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/error.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/error.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/error.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/error.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/index.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/index.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/index.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/index.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/login.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/login.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/login.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/security/protected/login.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/DummyCart.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/sessions/DummyCart.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/carts.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/sessions/carts.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/carts.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/sessions/carts.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/carts.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/sessions/carts.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/sessions/crt.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/sessions/crt.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/simpletag/foo.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/simpletag/foo.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/simpletag/foo.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/simpletag/foo.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/simpletag/foo.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/simpletag/foo.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/snp/snoop.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/snp/snoop.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/snp/snoop.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/snp/snoop.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/snp/snoop.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/snp/snoop.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/choose.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/choose.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/choose.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/choose.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/choose.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/choose.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/foreach.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/foreach.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/foreach.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/foreach.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/foreach.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/foreach.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/howto.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/howto.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/if.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/if.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/if.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/if.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/if.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/if.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/notes.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/tagplugin/notes.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/xml/xml.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/xml/xml.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/xml/xml.jsp
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/xml/xml.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/jsp/xml/xml.jsp.html
+tar: apache-tomcat-10.0.27/webapps/examples/jsp/xml/xml.jsp.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/cookies.html
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/cookies.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/helloworld.html
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/helloworld.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/images/code.gif
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/images/code.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/images/execute.gif
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/images/execute.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/images/return.gif
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/images/return.gif: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/index.html
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/index.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/nonblocking/bytecounter.html
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/nonblocking/bytecounter.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/reqheaders.html
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/reqheaders.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/reqinfo.html
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/reqinfo.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/reqparams.html
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/reqparams.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/servlets/sessions.html
+tar: apache-tomcat-10.0.27/webapps/examples/servlets/sessions.html: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/websocket/chat.xhtml
+tar: apache-tomcat-10.0.27/webapps/examples/websocket/chat.xhtml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/websocket/drawboard.xhtml
+tar: apache-tomcat-10.0.27/webapps/examples/websocket/drawboard.xhtml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/websocket/echo.xhtml
+tar: apache-tomcat-10.0.27/webapps/examples/websocket/echo.xhtml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/websocket/index.xhtml
+tar: apache-tomcat-10.0.27/webapps/examples/websocket/index.xhtml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/examples/websocket/snake.xhtml
+tar: apache-tomcat-10.0.27/webapps/examples/websocket/snake.xhtml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/META-INF/context.xml
+tar: apache-tomcat-10.0.27/webapps/host-manager/META-INF/context.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp/401.jsp
+tar: apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp/401.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp/403.jsp
+tar: apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp/403.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp/404.jsp
+tar: apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/jsp/404.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/manager.xml
+tar: apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/manager.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/web.xml
+tar: apache-tomcat-10.0.27/webapps/host-manager/WEB-INF/web.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/css/manager.css
+tar: apache-tomcat-10.0.27/webapps/host-manager/css/manager.css: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/images/asf-logo.svg
+tar: apache-tomcat-10.0.27/webapps/host-manager/images/asf-logo.svg: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/images/tomcat.svg
+tar: apache-tomcat-10.0.27/webapps/host-manager/images/tomcat.svg: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/host-manager/index.jsp
+tar: apache-tomcat-10.0.27/webapps/host-manager/index.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/META-INF/context.xml
+tar: apache-tomcat-10.0.27/webapps/manager/META-INF/context.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/401.jsp
+tar: apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/401.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/403.jsp
+tar: apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/403.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/404.jsp
+tar: apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/404.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/connectorCerts.jsp
+tar: apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/connectorCerts.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp
+tar: apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/connectorTrustedCerts.jsp
+tar: apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/connectorTrustedCerts.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/sessionDetail.jsp
+tar: apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/sessionDetail.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/sessionsList.jsp
+tar: apache-tomcat-10.0.27/webapps/manager/WEB-INF/jsp/sessionsList.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/WEB-INF/web.xml
+tar: apache-tomcat-10.0.27/webapps/manager/WEB-INF/web.xml: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/css/manager.css
+tar: apache-tomcat-10.0.27/webapps/manager/css/manager.css: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/images/asf-logo.svg
+tar: apache-tomcat-10.0.27/webapps/manager/images/asf-logo.svg: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/images/tomcat.svg
+tar: apache-tomcat-10.0.27/webapps/manager/images/tomcat.svg: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/index.jsp
+tar: apache-tomcat-10.0.27/webapps/manager/index.jsp: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/status.xsd
+tar: apache-tomcat-10.0.27/webapps/manager/status.xsd: Cannot open: Permission denied
+apache-tomcat-10.0.27/webapps/manager/xform.xsl
+tar: apache-tomcat-10.0.27/webapps/manager/xform.xsl: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/catalina.sh
+tar: apache-tomcat-10.0.27/bin/catalina.sh: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/ciphers.sh
+tar: apache-tomcat-10.0.27/bin/ciphers.sh: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/configtest.sh
+tar: apache-tomcat-10.0.27/bin/configtest.sh: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/daemon.sh
+tar: apache-tomcat-10.0.27/bin/daemon.sh: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/digest.sh
+tar: apache-tomcat-10.0.27/bin/digest.sh: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/makebase.sh
+tar: apache-tomcat-10.0.27/bin/makebase.sh: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/migrate.sh
+tar: apache-tomcat-10.0.27/bin/migrate.sh: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/setclasspath.sh
+tar: apache-tomcat-10.0.27/bin/setclasspath.sh: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/shutdown.sh
+tar: apache-tomcat-10.0.27/bin/shutdown.sh: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/startup.sh
+tar: apache-tomcat-10.0.27/bin/startup.sh: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/tool-wrapper.sh
+tar: apache-tomcat-10.0.27/bin/tool-wrapper.sh: Cannot open: Permission denied
+apache-tomcat-10.0.27/bin/version.sh
+tar: apache-tomcat-10.0.27/bin/version.sh: Cannot open: Permission denied
+tar: Exiting with failure status due to previous errors
+rm: cannot remove '/opt/apache-tomcat-10.0.27/conf/server.xml': Permission denied
+installmaventomcat.sh: 14: cd: can't cd to conf-and-webapps-file
+cp: cannot stat 'server.xml': No such file or directory
+rm: cannot remove '/opt/apache-tomcat-10.0.27/conf/tomcat-users.xml': Permission denied
+installmaventomcat.sh: 18: cd: can't cd to conf-and-webapps-file
+cp: cannot stat 'tomcat-users.xml': No such file or directory
+rm: cannot remove '/opt/apache-tomcat-10.0.27/webapps/manager/META-INF/context.xml': Permission denied
+installmaventomcat.sh: 22: cd: can't cd to conf-and-webapps-file
+cp: failed to access '/opt/apache-tomcat-10.0.27/webapps/manager/META-INF/': Permission denied
+rm: cannot remove '/opt/apache-tomcat-10.0.27/webapps/host-manager/META-INF/context.xml': Permission denied
+installmaventomcat.sh: 26: cd: can't cd to conf-and-webapps-file
+cp: failed to access '/opt/apache-tomcat-10.0.27/webapps/host-manager/META-INF/': Permission denied
+sh: 0: cannot open /opt/apache-tomcat-10.0.27/bin/shutdown.sh: Permission denied
+sh: 0: cannot open /opt/apache-tomcat-10.0.27/bin/startup.sh: Permission denied
+Cloning into 'hello-world-war'...
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.efsavage:hello-world-war:war:9
+[[1;33mWARNING[m] 'version' contains an expression but should be a constant. @ com.efsavage:hello-world-war:${BUILD_NUMBER}, /home/jenkins/hello-world-war/pom.xml, line 6, column 11
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.efsavage:hello-world-war[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Hello World Web Application Repository 9[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mhello-world-war[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/jenkins/hello-world-war/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mhello-world-war[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/jenkins/hello-world-war/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.1.1:war[m [1m(default-war)[m @ [36mhello-world-war[0;1m ---[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/home/jenkins/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [hello-world-war] in [/home/jenkins/hello-world-war/target/hello-world-war-9]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/home/jenkins/hello-world-war/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [67 msecs]
+[[1;34mINFO[m] Building war: /home/jenkins/hello-world-war/target/hello-world-war-9.war
+[[1;34mINFO[m] WEB-INF/web.xml already added, skipping
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.898 s
+[[1;34mINFO[m] Finished at: 2022-12-03T05:33:02Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Tomcat started.
++ echo Done with Simulation
+Done with Simulation
+Finished: SUCCESS

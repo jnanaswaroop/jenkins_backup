@@ -1,0 +1,44 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>BUILD_VERSION</name>
+          <description>Added new features to 1.0.0</description>
+          <value>2.0.0</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>BUILD_VERSION</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>jnanaswaroop</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>251</queueId>
+  <timestamp>1670045516649</timestamp>
+  <startTime>1670045516652</startTime>
+  <result>FAILURE</result>
+  <duration>15</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.scm.NullSCM"/>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/my_fifth_declarative_pipeline_diff_server_Manual_Parameterized_Plugin@script/42610f8651733a9f253270006dd4fa2d802ce2f7e9066373c1673d7a126c2c8e</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/my_fifth_declarative_pipeline_diff_server_Manual_Parameterized_Plugin/builds/1/changelog853847714702979145.xml</changelogFile>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

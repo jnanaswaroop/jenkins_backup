@@ -1,0 +1,60 @@
+Started by user [8mha:////4CNoBiiWLL0bHFcD2U+MHTHJuhuxtHnUosKWIgXv8KfHAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfpZeYl5icXliUX5+QUAR23jJMcAAAA=[0mJnana Swaroop K R
+Running as SYSTEM
+Building remotely on [8mha:////4A4eARlj+HgN+MeIUngwxAqbjfF7BuYmM6h2QmwQT+iqAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/eT83ILSktQifafSzJwUheCcxLJUheDUorLUIgACBLKt0QAAAA==[0mBuild Slave Server (build_slave_server) in workspace /home/slavejenkins/workspace/my last job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/slavejenkins/workspace/my last job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jnanaswaroop/myrepository.git # timeout=10
+Fetching upstream changes from https://github.com/jnanaswaroop/myrepository.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/jnanaswaroop/myrepository.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4417aabe63e5663a1d3d6265c05d2f44ec8f5764 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4417aabe63e5663a1d3d6265c05d2f44ec8f5764 # timeout=10
+Commit message: "Update even_odd.sh"
+ > git rev-list --no-walk 4417aabe63e5663a1d3d6265c05d2f44ec8f5764 # timeout=10
+[my last job] $ /bin/sh -xe /tmp/jenkins7040034226346455855.sh
++ ls
+addition2.sh
+allarith.sh
+allfilename.sh
+biggest_four.sh
+biggest_three.sh
+check_string_f_d_l_nothing.sh
+current_workdirect.sh
+display_setofvalues.sh
+display_setofvalues_.sh
+even_odd.sh
+factorial_arrayofnum.sh
+factorial_while.sh
+fibonachi_series.sh
+file1
+file2
+file3
+file_seperate_percentage.sh
+hidisplay.sh
+myfile1
+numbercheck.sh
+palindrome_while.sh
+patternfinding.sh
+read_count_char_eachline.sh
+read_lines_print.sh
+read_two_intigers.sh
+reverse_lines_file.sh
+reverse_string.sh
+reversr_lines_content_file.sh
+shellscripts
+sum_first_n_while.sh
+sumofthree.sh
+sumoftwo.sh
+temp.sh
+yourfile1
++ pwd
+/home/slavejenkins/workspace/my last job
++ echi hi swaroop
+/tmp/jenkins7040034226346455855.sh: 4: echi: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

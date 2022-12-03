@@ -1,0 +1,8 @@
+Started by user [8mha:////4CNoBiiWLL0bHFcD2U+MHTHJuhuxtHnUosKWIgXv8KfHAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfpZeYl5icXliUX5+QUAR23jJMcAAAA=[0mJnana Swaroop K R
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/my_first_job
+[my_first_job] $ /bin/sh -xe /tmp/jenkins6081840850046927999.sh
++ ls
++ pwd
+/var/lib/jenkins/workspace/my_first_job
+Finished: SUCCESS

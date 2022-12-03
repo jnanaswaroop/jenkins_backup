@@ -1,0 +1,57 @@
+Started by user [8mha:////4CNoBiiWLL0bHFcD2U+MHTHJuhuxtHnUosKWIgXv8KfHAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfpZeYl5icXliUX5+QUAR23jJMcAAAA=[0mJnana Swaroop K R
+Running as SYSTEM
+Building remotely on [8mha:////4CN5odMJqJAsx1yxckYMeixUeYn7Qcu/hbOicb550gTYAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYx/eT83ILSktQi/aTSzJyU+OKcxLJUIwCvjoMTywAAAA==[0mbuild_slave2 in workspace /home/swaroopkr/workspace/maventomcat
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/jnanaswaroop/mynewrepo.git
+ > git init /home/swaroopkr/workspace/maventomcat # timeout=10
+Fetching upstream changes from https://github.com/jnanaswaroop/mynewrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/jnanaswaroop/mynewrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jnanaswaroop/mynewrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 26b15c2700b6ad3d678b23e1e5e4c4e0b7b347b9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 26b15c2700b6ad3d678b23e1e5e4c4e0b7b347b9 # timeout=10
+Commit message: "Update and rename hidisplay.sh to maventomcat.sh"
+First time build. Skipping changelog.
+[maventomcat] $ /bin/sh -xe /tmp/jenkins10316926639241865899.sh
++ ls
+allarith.sh
+allfilename.sh
+biggest_four.sh
+biggest_three.sh
+check_string_f_d_l_nothing.sh
+current_workdirect.sh
+display_setofvalues.sh
+display_setofvalues_.sh
+even_odd.sh
+factorial_arrayofnum.sh
+factorial_while.sh
+fibonachi_series.sh
+file_seperate_percentage.sh
+maventomcat.sh
+numbercheck.sh
+palindrome_while.sh
+patternfinding.sh
+read_count_char_eachline.sh
+read_lines_print.sh
+read_two_intigers.sh
+reverse_lines_file.sh
+reverse_string.sh
+reversr_lines_content_file.sh
+shellscripts
+sum_first_n_while.sh
+sumofthree.sh
+sumoftwo.sh
+temp.sh
++ pwd
+/home/swaroopkr/workspace/maventomcat
++ sh maventomcat sh
+sh: 0: cannot open maventomcat: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

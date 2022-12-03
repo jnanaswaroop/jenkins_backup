@@ -1,0 +1,25 @@
+Started by GitHub push by jnanaswaroop
+Running as SYSTEM
+Building remotely on [8mha:////4A4eARlj+HgN+MeIUngwxAqbjfF7BuYmM6h2QmwQT+iqAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/eT83ILSktQifafSzJwUheCcxLJUheDUorLUIgACBLKt0QAAAA==[0mBuild Slave Server (build_slave_server) in workspace /home/slavejenkins/workspace/my_seventh_job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/slavejenkins/workspace/my_seventh_job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jnanaswaroop/myrepository.git # timeout=10
+Fetching upstream changes from https://github.com/jnanaswaroop/myrepository.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/jnanaswaroop/myrepository.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 93c30694a6c873ce3ad2c7c7a218460036c25b32 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 93c30694a6c873ce3ad2c7c7a218460036c25b32 # timeout=10
+Commit message: "Update addition2.sh"
+ > git rev-list --no-walk b5908e509dada5c3bfb3eebd7b87a6a7017c5fdc # timeout=10
+[my_seventh_job] $ /bin/sh -xe /tmp/jenkins4493299532570537382.sh
++ pwd
+/home/slavejenkins/workspace/my_seventh_job
++ sh myrepository/addition2.sh 7 7
+sh: 0: cannot open myrepository/addition2.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

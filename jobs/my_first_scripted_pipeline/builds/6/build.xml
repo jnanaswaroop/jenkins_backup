@@ -1,0 +1,72 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>jnanaswaroop</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@621.vb_44ce045b_582">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>91</queueId>
+  <timestamp>1669735475881</timestamp>
+  <startTime>1669735475885</startTime>
+  <result>SUCCESS</result>
+  <duration>1783</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>node(&apos;build_maventomcat&apos;){
+    stage (&apos;Example&apos;){
+        sh &quot;pwd&quot;
+        sh &quot;ls&quot;
+    }
+}
+node(&apos;master&apos;){
+    stage (&apos;Example&apos;){
+        sh &quot;pwd&quot;
+        sh &quot;echo Jnana Swaroop K R&quot;
+        sh &quot;ls&quot;
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>174470202</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>46914865</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>486296620</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>46326374</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>135843644</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>24</iota>
+    <head>1:24</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

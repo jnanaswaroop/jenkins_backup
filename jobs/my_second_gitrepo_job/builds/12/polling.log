@@ -1,0 +1,12 @@
+Started on Nov 27, 2022, 3:58:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision f02e18cdf0b5e3d1d0c5e55a6cf9f097cd1ba37f (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/jnanaswaroop/myrepository.git # timeout=10
+Found 8 remote heads on https://github.com/jnanaswaroop/myrepository.git
+[poll] Latest remote head revision on refs/heads/master is: 254edb8014b0c7f09694d83d6e732a5b6d72acfd
+Done. Took 0.65 sec
+Changes found

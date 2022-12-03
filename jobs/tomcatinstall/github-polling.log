@@ -1,0 +1,13 @@
+Started on Nov 27, 2022, 3:27:02 PM
+Started by event from 140.82.115.251 ⇒ http://103.4.10.95:8080/github-webhook/ on Sun Nov 27 15:27:02 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision e4f4103847d95479334d8e1a5d6e7c9d746fe67b (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/jnanaswaroop/mynewrepo.git # timeout=10
+Found 1 remote heads on https://github.com/jnanaswaroop/mynewrepo.git
+[poll] Latest remote head revision on refs/heads/master is: 99369738f0ceed758cc59def77c140bd6f2fca4c
+Done. Took 0.46 sec
+Changes found

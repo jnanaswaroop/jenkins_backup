@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.git.GitBranchSCMRevision plugin="git@4.14.0">
+  <head class="jenkins.plugins.git.GitBranchSCMHead">
+    <name>swaroop</name>
+  </head>
+  <hash>26909b2b3ba1dce15b130a91e77b1226a50e0f76</hash>
+</jenkins.plugins.git.GitBranchSCMRevision>

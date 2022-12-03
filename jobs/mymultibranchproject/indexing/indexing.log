@@ -1,0 +1,30 @@
+Started by user [8mha:////4CNoBiiWLL0bHFcD2U+MHTHJuhuxtHnUosKWIgXv8KfHAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfpZeYl5icXliUX5+QUAR23jJMcAAAA=[0mJnana Swaroop K R
+[Fri Dec 02 17:40:21 UTC 2022] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote --symref -- https://github.com/jnanaswaroop/hello-world-war.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-ca64f68f15cfbe483302a403538901cb/.git # timeout=10
+Setting origin to https://github.com/jnanaswaroop/hello-world-war.git
+ > git config remote.origin.url https://github.com/jnanaswaroop/hello-world-war.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/jnanaswaroop/hello-world-war.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch master
+      ‘Jenkinsfile_Auto’ found
+    Met criteria
+Changes detected: master (26909b2b3ba1dce15b130a91e77b1226a50e0f76 → 73f872caf9f2211847a6f2d4753e66e4703ec867)
+Scheduled build for branch: master
+  Checking branch swaroop
+      ‘Jenkinsfile_Auto’ found
+    Met criteria
+No changes detected: swaroop (still at 26909b2b3ba1dce15b130a91e77b1226a50e0f76)
+Processed 2 branches
+[Fri Dec 02 17:40:23 UTC 2022] Finished branch indexing. Indexing took 1.7 sec
+Finished: SUCCESS

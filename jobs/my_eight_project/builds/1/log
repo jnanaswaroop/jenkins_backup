@@ -1,0 +1,13 @@
+Started by user [8mha:////4CNoBiiWLL0bHFcD2U+MHTHJuhuxtHnUosKWIgXv8KfHAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfpZeYl5icXliUX5+QUAR23jJMcAAAA=[0mJnana Swaroop K R
+Running as SYSTEM
+Building remotely on [8mha:////4CN5odMJqJAsx1yxckYMeixUeYn7Qcu/hbOicb550gTYAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYx/eT83ILSktQi/aTSzJyU+OKcxLJUIwCvjoMTywAAAA==[0mbuild_slave2 in workspace /home/swaroopkr/workspace/my_eight_project
+[my_eight_project] $ /bin/sh -xe /tmp/jenkins4138854486934005284.sh
++ rm -rf myrepository
++ git clone https://github.com/jnanaswaroop/myrepository.git
+Cloning into 'myrepository'...
++ pwd
+/home/swaroopkr/workspace/my_eight_project
++ sh addition2.sh
+sh: 0: cannot open addition2.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

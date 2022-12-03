@@ -1,0 +1,9 @@
+commit 558bf47bd3ec33483c4f2dedc62bd7ab672749ee
+tree 24f97fbb45ccf183c38fe60ec52e016fc8c2acee
+parent 32bbd4a7314236216c4d41da1c6fd86443cf777e
+author jnanaswaroop <118235880+jnanaswaroop@users.noreply.github.com> 2022-11-27 09:10:51 +0530
+committer GitHub <noreply@github.com> 2022-11-27 09:10:51 +0530
+
+    Update even_odd.sh
+
+:100644 100644 841d6de010d941e6f80477a863581d9de0039d81 1ba01fa6443a799d0ad3478bfa26153616e5a4ef M	even_odd.sh

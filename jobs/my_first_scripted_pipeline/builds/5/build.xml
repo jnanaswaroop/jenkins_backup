@@ -1,0 +1,79 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>jnanaswaroop</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@621.vb_44ce045b_582">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes>
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>jnanaswaroop</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>88</queueId>
+  <timestamp>1669735299043</timestamp>
+  <startTime>1669735299046</startTime>
+  <result>ABORTED</result>
+  <duration>127447</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>node(&apos;build_maventomcat&apos;){
+    stage (&apos;Example&apos;){
+        sh &quot;pwd&quot;
+        sh &quot;ls&quot;
+    }
+}
+node(&apos;jenkins&apos;){
+    stage (&apos;Example&apos;){
+        sh &quot;pwd&quot;
+        sh &quot;echo Jnana Swaroop K R&quot;
+        sh &quot;ls&quot;
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>115564603</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>31096721</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>328162549</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>45123372</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>82290562</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>15</iota>
+    <head>1:15</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

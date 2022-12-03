@@ -1,0 +1,63 @@
+Started by an SCM change
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/my_fifth_job_jenkins_webhook
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/my_fifth_job_jenkins_webhook/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jnanaswaroop/myrepository.git # timeout=10
+Fetching upstream changes from https://github.com/jnanaswaroop/myrepository.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/jnanaswaroop/myrepository.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 93c30694a6c873ce3ad2c7c7a218460036c25b32 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 93c30694a6c873ce3ad2c7c7a218460036c25b32 # timeout=10
+Commit message: "Update addition2.sh"
+ > git rev-list --no-walk b5908e509dada5c3bfb3eebd7b87a6a7017c5fdc # timeout=10
+[my_fifth_job_jenkins_webhook] $ /bin/sh -xe /tmp/jenkins63885891533611409.sh
++ ls
+addition2.sh
+allarith.sh
+allfilename.sh
+biggest_four.sh
+biggest_three.sh
+check_string_f_d_l_nothing.sh
+current_workdirect.sh
+display_setofvalues.sh
+display_setofvalues_.sh
+even_odd.sh
+factorial_arrayofnum.sh
+factorial_while.sh
+fibonachi_series.sh
+file1
+file2
+file3
+file_seperate_percentage.sh
+hidisplay.sh
+myfile1
+numbercheck.sh
+palindrome_while.sh
+patternfinding.sh
+read_count_char_eachline.sh
+read_lines_print.sh
+read_two_intigers.sh
+reverse_lines_file.sh
+reverse_string.sh
+reversr_lines_content_file.sh
+shellscripts
+sum_first_n_while.sh
+sumofthree.sh
+sumoftwo.sh
+temp.sh
+yourfile1
++ pwd
+/var/lib/jenkins/workspace/my_fifth_job_jenkins_webhook
++ sh even_odd.sh
+Enter the number you want to check for odd / even
+It's an Odd Number
+Hi Jnana Swaroop K R
+hi Yasha J
+hiiiiiiiiiiiiiiihi
+Finished: SUCCESS

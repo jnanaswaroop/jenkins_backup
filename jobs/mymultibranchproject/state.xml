@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.1051.v9985666b_f6cc">
+  <sourceActions>
+    <entry>
+      <string>6c61e2a5-484b-4d2d-8b37-f49c13b8cc19</string>
+      <list>
+        <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@4.14.0">
+          <remote>https://github.com/jnanaswaroop/hello-world-war.git</remote>
+          <name>master</name>
+        </jenkins.plugins.git.GitRemoteHeadRefAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

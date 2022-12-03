@@ -1,0 +1,15 @@
+Started by user [8mha:////4Jgi6Slg4AgUPd54G3icUlKCM80dbyd4UkVkqZztQoKAAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL94oyi1MrEYgAKzovzwgAAAA==[0mShreyas
+Running as SYSTEM
+Building remotely on [8mha:////4A4eARlj+HgN+MeIUngwxAqbjfF7BuYmM6h2QmwQT+iqAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/eT83ILSktQifafSzJwUheCcxLJUheDUorLUIgACBLKt0QAAAA==[0mBuild Slave Server (build_slave_server) in workspace /home/slavejenkins/workspace/my_first_job
+[my_first_job] $ /bin/sh -xe /tmp/jenkins14056399668907010048.sh
++ rm -rf myrepository
++ git clone https://github.com/jnanaswaroop/myrepository.git
+Cloning into 'myrepository'...
++ pwd
+/home/slavejenkins/workspace/my_first_job
++ sh myrepository/addition2.sh 5 7
+Sum of two numbers 5 and 7 is 12
+Not Triggered from webhook
+hi jnana swaroop
+Triggering a new build of [8mha:////4HwokmgIIpK9bt+GN7QA/kvzz38xPMgLg/1N4vaCryLvAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZp/az8JP3cyvjiVKCGlPj0zJKi1IL8eJAoAKpWBGvQAAAA[0mmy_second_gitrepo_job
+Finished: SUCCESS

@@ -1,0 +1,13 @@
+Started by user [8mha:////4CNoBiiWLL0bHFcD2U+MHTHJuhuxtHnUosKWIgXv8KfHAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfpZeYl5icXliUX5+QUAR23jJMcAAAA=[0mJnana Swaroop K R
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/my_first_job
+[my_first_job] $ /bin/sh -xe /tmp/jenkins12248623140217742350.sh
++ rm -rf myrepository
++ git clone https://github.com/jnanaswaroop/myrepository.git
+Cloning into 'myrepository'...
++ pwd
+/var/lib/jenkins/workspace/my_first_job
++ sh myrepository/addition2.sh 5 7
+Sum of two numbers 5 and 7 is 12
+Triggering a new build of [8mha:////4HwokmgIIpK9bt+GN7QA/kvzz38xPMgLg/1N4vaCryLvAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZp/az8JP3cyvjiVKCGlPj0zJKi1IL8eJAoAKpWBGvQAAAA[0mmy_second_gitrepo_job
+Finished: SUCCESS

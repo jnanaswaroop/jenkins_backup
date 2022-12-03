@@ -1,0 +1,20 @@
+Started by GitHub push by jnanaswaroop
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/my_fifth_job_jenkins_webhook
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/my_fifth_job_jenkins_webhook/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jnanaswaroop/myrepository.git # timeout=10
+Fetching upstream changes from https://github.com/jnanaswaroop/myrepository.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/jnanaswaroop/myrepository.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8b8162cc3a3bb571b21f344b8ab8bd1a13eadc38 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8b8162cc3a3bb571b21f344b8ab8bd1a13eadc38 # timeout=10
+Commit message: "Update even_odd.sh"
+ > git rev-list --no-walk 558bf47bd3ec33483c4f2dedc62bd7ab672749ee # timeout=10
+[my_fifth_job_jenkins_webhook] $ /bin/sh -xe /tmp/jenkins13424414412635960637.sh
+Finished: SUCCESS

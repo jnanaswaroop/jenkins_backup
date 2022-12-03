@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-30 02:50:41.441 UTC</timestamp>
+  <md5sum>e7455328ee70033b0fcf6663f94f20f7</md5sum>
+  <fileName>Credential id=build_jnana name=jnana/****** (build_jnana)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1670043815985</timestamp>
+      <nodeName>build_jnana</nodeName>
+      <timestamp0>1670037188242</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

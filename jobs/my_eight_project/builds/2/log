@@ -1,0 +1,33 @@
+Started by user [8mha:////4CNoBiiWLL0bHFcD2U+MHTHJuhuxtHnUosKWIgXv8KfHAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfpZeYl5icXliUX5+QUAR23jJMcAAAA=[0mJnana Swaroop K R
+Running as SYSTEM
+Building remotely on [8mha:////4CN5odMJqJAsx1yxckYMeixUeYn7Qcu/hbOicb550gTYAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYx/eT83ILSktQi/aTSzJyU+OKcxLJUIwCvjoMTywAAAA==[0mbuild_slave2 in workspace /home/swaroopkr/workspace/my_eight_project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/jnanaswaroop/myrepository.git
+ > git init /home/swaroopkr/workspace/my_eight_project # timeout=10
+Fetching upstream changes from https://github.com/jnanaswaroop/myrepository.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/jnanaswaroop/myrepository.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jnanaswaroop/myrepository.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 93c30694a6c873ce3ad2c7c7a218460036c25b32 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 93c30694a6c873ce3ad2c7c7a218460036c25b32 # timeout=10
+Commit message: "Update addition2.sh"
+First time build. Skipping changelog.
+[my_eight_project] $ /bin/sh -xe /tmp/jenkins14550585815523664872.sh
++ rm -rf myrepository
++ git clone https://github.com/jnanaswaroop/myrepository.git
+Cloning into 'myrepository'...
++ pwd
+/home/swaroopkr/workspace/my_eight_project
++ sh addition2.sh
+(standard_in) 1: syntax error
+Sum of two numbers  and  is 
+Not Triggered from webhook
+hi jnana swaroop
+Finished: SUCCESS

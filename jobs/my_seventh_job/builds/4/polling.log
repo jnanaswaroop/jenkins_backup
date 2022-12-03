@@ -1,0 +1,13 @@
+Started on Nov 27, 2022, 4:06:51 PM
+Started by event from 140.82.115.109 ⇒ http://103.4.10.95:8080/github-webhook/ on Sun Nov 27 16:06:51 UTC 2022
+Using strategy: Default
+The recommended git tool is: NONE
+using credential build_slave_server
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials build slave server
+ > git ls-remote -h -- https://github.com/jnanaswaroop/myrepository.git # timeout=10
+Found 8 remote heads on https://github.com/jnanaswaroop/myrepository.git
+[poll] Latest remote head revision on refs/heads/master is: d6d810ddcd7a4839857336372223ab8d50a1df2d
+Done. Took 0.53 sec
+Changes found

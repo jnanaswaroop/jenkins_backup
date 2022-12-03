@@ -1,0 +1,18 @@
+commit d29070806dc86367af490e6c899474da445e5178
+tree 32c504f1dd0a482ac4815eb960767fb3eb32a282
+parent 1b70f8412d9cf9e46ea4148489db806be4c28044
+author jnanaswaroop <118235880+jnanaswaroop@users.noreply.github.com> 2022-12-03 10:48:06 +0530
+committer GitHub <noreply@github.com> 2022-12-03 10:48:06 +0530
+
+    Update Jenkinsfile_Auto
+
+:100644 100644 409ad32a9292804456ce224e60ab521f0e5a545c 469023638f278e1a83f9cbbe4efa6c7c5072f1d8 M	Jenkinsfile_Auto
+commit 1b70f8412d9cf9e46ea4148489db806be4c28044
+tree 966ab339d3fbea63398a4147046d0a4f1783ac26
+parent f79ad8d7a6d5fcd176500905e4d4bfbc7c777cd3
+author jnanaswaroop <118235880+jnanaswaroop@users.noreply.github.com> 2022-12-03 10:46:35 +0530
+committer GitHub <noreply@github.com> 2022-12-03 10:46:35 +0530
+
+    Update Jenkinsfile_Auto
+
+:100644 100644 469023638f278e1a83f9cbbe4efa6c7c5072f1d8 409ad32a9292804456ce224e60ab521f0e5a545c M	Jenkinsfile_Auto

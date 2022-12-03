@@ -1,0 +1,29 @@
+Started by GitHub push by jnanaswaroop
+Running as SYSTEM
+Building remotely on [8mha:////4A4eARlj+HgN+MeIUngwxAqbjfF7BuYmM6h2QmwQT+iqAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/eT83ILSktQifafSzJwUheCcxLJUheDUorLUIgACBLKt0QAAAA==[0mBuild Slave Server (build_slave_server) in workspace /home/slavejenkins/workspace/my_seventh_job
+The recommended git tool is: NONE
+using credential build_slave_server
+Cloning the remote Git repository
+Cloning repository https://github.com/jnanaswaroop/myrepository.git
+ > git init /home/slavejenkins/workspace/my_seventh_job # timeout=10
+Fetching upstream changes from https://github.com/jnanaswaroop/myrepository.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials build slave server
+ > git fetch --tags --force --progress -- https://github.com/jnanaswaroop/myrepository.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jnanaswaroop/myrepository.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d6d810ddcd7a4839857336372223ab8d50a1df2d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d6d810ddcd7a4839857336372223ab8d50a1df2d # timeout=10
+Commit message: "Update addition2.sh"
+First time build. Skipping changelog.
+[my_seventh_job] $ /bin/sh -xe /tmp/jenkins7885727421445274140.sh
++ pwd
+/home/slavejenkins/workspace/my_seventh_job
++ sh myrepository/addition2.sh 7 7
+sh: 0: cannot open myrepository/addition2.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

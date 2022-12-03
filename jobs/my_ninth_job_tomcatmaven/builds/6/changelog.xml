@@ -1,0 +1,45 @@
+commit d29070806dc86367af490e6c899474da445e5178
+tree 32c504f1dd0a482ac4815eb960767fb3eb32a282
+parent 1b70f8412d9cf9e46ea4148489db806be4c28044
+author jnanaswaroop <118235880+jnanaswaroop@users.noreply.github.com> 2022-12-03 10:48:06 +0530
+committer GitHub <noreply@github.com> 2022-12-03 10:48:06 +0530
+
+    Update Jenkinsfile_Auto
+
+:100644 100644 409ad32a9292804456ce224e60ab521f0e5a545c 469023638f278e1a83f9cbbe4efa6c7c5072f1d8 M	Jenkinsfile_Auto
+commit 1b70f8412d9cf9e46ea4148489db806be4c28044
+tree 966ab339d3fbea63398a4147046d0a4f1783ac26
+parent f79ad8d7a6d5fcd176500905e4d4bfbc7c777cd3
+author jnanaswaroop <118235880+jnanaswaroop@users.noreply.github.com> 2022-12-03 10:46:35 +0530
+committer GitHub <noreply@github.com> 2022-12-03 10:46:35 +0530
+
+    Update Jenkinsfile_Auto
+
+:100644 100644 469023638f278e1a83f9cbbe4efa6c7c5072f1d8 409ad32a9292804456ce224e60ab521f0e5a545c M	Jenkinsfile_Auto
+commit f79ad8d7a6d5fcd176500905e4d4bfbc7c777cd3
+tree 32c504f1dd0a482ac4815eb960767fb3eb32a282
+parent 23a4b8bd7e6496014cbe8bef4188bbe38c0d8e28
+author jnanaswaroop <118235880+jnanaswaroop@users.noreply.github.com> 2022-12-03 10:41:29 +0530
+committer GitHub <noreply@github.com> 2022-12-03 10:41:29 +0530
+
+    Update Jenkinsfile_Auto
+
+:100644 100644 e6d39fe032a1b70c4ddde8e57a57de67094e4484 469023638f278e1a83f9cbbe4efa6c7c5072f1d8 M	Jenkinsfile_Auto
+commit 23a4b8bd7e6496014cbe8bef4188bbe38c0d8e28
+tree 75e5289237999127a3bc118aee593a4968295df4
+parent 73f872caf9f2211847a6f2d4753e66e4703ec867
+author jnanaswaroop <118235880+jnanaswaroop@users.noreply.github.com> 2022-12-02 23:28:42 +0530
+committer GitHub <noreply@github.com> 2022-12-02 23:28:42 +0530
+
+    Update Jenkinsfile_Auto
+
+:100644 100644 71edd56a2b5ea2cc4a77d4427dc729199408a21d e6d39fe032a1b70c4ddde8e57a57de67094e4484 M	Jenkinsfile_Auto
+commit 73f872caf9f2211847a6f2d4753e66e4703ec867
+tree 489b8989597b34d18e470a4c120247b16cb94b4a
+parent 26909b2b3ba1dce15b130a91e77b1226a50e0f76
+author jnanaswaroop <118235880+jnanaswaroop@users.noreply.github.com> 2022-12-02 23:09:54 +0530
+committer GitHub <noreply@github.com> 2022-12-02 23:09:54 +0530
+
+    Update Jenkinsfile_Auto
+
+:100644 100644 e88b70f25ec09cec8e7426400883abba7cfcc65f 71edd56a2b5ea2cc4a77d4427dc729199408a21d M	Jenkinsfile_Auto
