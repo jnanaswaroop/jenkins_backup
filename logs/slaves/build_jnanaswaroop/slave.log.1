@@ -1,0 +1,46 @@
+SSHLauncher{host='172.31.6.144', port=22, credentialsId='build_jnanaswaroop', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[12/03/22 06:30:15] [SSH] Opening SSH connection to 172.31.6.144:22.
+[12/03/22 06:30:15] [SSH] WARNING: SSH Host Keys are not being verified. Man-in-the-middle attacks may be possible against this connection.
+[12/03/22 06:30:16] [SSH] Authentication successful.
+[12/03/22 06:30:17] [SSH] The remote user's environment is:
+DBUS_SESSION_BUS_ADDRESS='unix:path=/run/user/1001/bus'
+HOME='/home/jnana'
+IFS=' 	
+'
+LANG='C.UTF-8'
+LOGNAME='jnana'
+MOTD_SHOWN='pam'
+OPTIND='1'
+PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+PPID='3661'
+PS1='$ '
+PS2='> '
+PS4='+ '
+PWD='/home/jnana'
+SHELL='/bin/sh'
+SSH_CLIENT='172.31.4.241 42028 22'
+SSH_CONNECTION='172.31.4.241 42028 172.31.6.144 22'
+USER='jnana'
+XDG_RUNTIME_DIR='/run/user/1001'
+XDG_SESSION_CLASS='user'
+XDG_SESSION_ID='10'
+XDG_SESSION_TYPE='tty'
+Checking Java version in the PATH
+openjdk version "11.0.17" 2022-10-18
+OpenJDK Runtime Environment (build 11.0.17+8-post-Ubuntu-1ubuntu222.04)
+OpenJDK 64-Bit Server VM (build 11.0.17+8-post-Ubuntu-1ubuntu222.04, mixed mode, sharing)
+[12/03/22 06:30:17] [SSH] Checking java version of /home/jnana/jdk/bin/java
+Couldn't figure out the Java version of /home/jnana/jdk/bin/java
+sh: 1: /home/jnana/jdk/bin/java: not found
+
+[12/03/22 06:30:17] [SSH] Checking java version of java
+[12/03/22 06:30:17] [SSH] java -version returned 11.0.17.
+[12/03/22 06:30:17] [SSH] Starting sftp client.
+[12/03/22 06:30:17] [SSH] Copying latest remoting.jar...
+[12/03/22 06:30:18] [SSH] Copied 1,339,992 bytes.
+Expanded the channel window size to 4MB
+[12/03/22 06:30:18] [SSH] Starting agent process: cd "/home/jnana" && java  -jar remoting.jar -workDir /home/jnana -jar-cache /home/jnana/remoting/jarCache
+Error: Invalid or corrupt jarfile remoting.jar
+Agent JVM has terminated. Exit code=1
+[12/03/22 06:30:18] Launch failed - cleaning up connection
+[12/03/22 06:30:18] [SSH] Connection closed.

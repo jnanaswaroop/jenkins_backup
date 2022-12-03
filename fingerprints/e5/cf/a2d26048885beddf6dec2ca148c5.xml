@@ -6,9 +6,9 @@
   <usages/>
   <facets>
     <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
-      <timestamp>1670043816045</timestamp>
+      <timestamp>1670049059218</timestamp>
       <nodeName>build_jnanaswaroop</nodeName>
-      <timestamp0>1670037188246</timestamp0>
+      <timestamp0>1670049018225</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
   </facets>
 </fingerprint>
